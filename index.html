@@ -17,6 +17,7 @@
     <div id="fb-root"></div>
     <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
 
+    <a class="test" href="javascript:">test</div>
     <script>
         $(function ()
         {
@@ -27,10 +28,23 @@
                     version: 'v3.2'
                 });
 
-                FB.Event.subscribe('edge.create', ()=>{
-                    console.log('2');
-                    
+                $('a.test').click(()=>
+                {
+                    FB.api('/113124472034820', function(response) {
+                        console.log(response);
+                    });
                 });
+                // FB.api(
+                //     "/me/likes",
+                //     "POST",
+                //     function (response) {
+                //     }
+                // );
+
+                // FB.Event.subscribe('edge.create', ()=>{
+                //     console.log('2');
+                    
+                // });
 
 
                 // FB.getLoginStatus((response)=>{
