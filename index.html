@@ -27,14 +27,15 @@
                     version: 'v3.2'
                 });
 
-                FB.Event.subscribe('auth.statusChange', ()=>{
-                    console.log('1');
+                FB.Event.subscribe('edge.create', ()=>{
+                    console.log('2');
                     
                 });
 
-                FB.getLoginStatus((response)=>{
-                    console.log(response);
-                });
+
+                // FB.getLoginStatus((response)=>{
+                //     console.log(response);
+                // });
 
                 // FB.ui({
                 //     method: 'share',
