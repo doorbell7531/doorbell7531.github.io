@@ -2,282 +2,67 @@
 <html>
 
 <head>
-    <title>御城 Castle Defense - 事前登錄</title>
+    <title>Custom FB Like Button</title>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="Keywords" content="御城、御城收藏、御城計畫、御城プロジェクトRE、城プロ、御城少女、御城プロジェクト～CASTLE DEFENSE～、御城少女～CASTLE DEFENSE～、二次元、塔防、DMM、日式手遊、日本戰國、日本城堡、日式城堡、城娘、塔防RPG、轉蛋、二次元手遊、DMM遊戲、大坂城、熊本城、彥根城、名古屋城、戰國遊戲、豪華聲優、擬人化、像素風、燒腦">
-    <meta name="description" content="《御城少女：RE～CASTLE DEFENSE～》為日本DMM遊戲開發商正版授權戰國塔防RPG手機遊戲，以城娘養成的對戰方式，和華麗城娘們的羈絆物語 !即刻參加事前登錄活動，有機會獲得大獎好禮唷~">
-    
-    <meta property="og:url" content="https://tw.snsplus.com/event/event_16" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="御城少女：RE～CASTLE DEFENSE～" />
-    <meta property="og:description" content="《御城少女：RE～CASTLE DEFENSE～》為日本DMM遊戲開發商正版授權戰國塔防RPG手機遊戲，以城娘養成的對戰方式，和華麗城娘們的羈絆物語 !即刻參加事前登錄活動，有機會獲得大獎好禮唷~" />
-    <meta property="og:image" content="dist/images/fbShare.png" />
 
-    <link rel="icon" href="dist/images/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="dist/images/favicon.ico" type="image/x-icon">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
     
-    <link rel="stylesheet" href="dist/css/jquery.fancybox.css">
-    <link rel="stylesheet" href="dist/css/jquery-sakura.css">
-    <link rel="stylesheet" href="dist/css/jigsaw.css">
-    <link rel="stylesheet" href="dist/css/index.css">
-
-    <script defer src="dist/js/index.bundle.js"></script>
 </head>
 
 <body>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v3.2"></script>
+    <div id="fb-root"></div>
+    <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
 
-    <!-- <a class="test" style="color:wheat; font-size:13px;" href="javascript:">test</a> -->
-    <!-- <div style="display:none;" class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div> -->
-
-    <!-- <div id="container" style="display:none;"> -->
-    <div id="container">
-
-        <header>
-
-            <nav>
-                <ul>
-                    <li data-anchor="login">立即登錄</li>
-                    <li data-anchor="achieved">累積達成全服送</li>
-                    <li data-anchor="plus">分享加碼抽</li>
-                    <li data-anchor="character">人物介紹</li>
-                    <li class="notice">注意事項</li>
-                </ul>
-                <div class="speaker"></div>
-            </nav>
-
-            <div class="playVideo"></div>
-            <video autoplay muted loop src="dist/video/desktop.mov">很抱歉，您的瀏覽器不支援影片撥放，請改用其他瀏覽器</video>
-            <h1 class="logo"><img src="dist/images/logo.png" alt="御城少女RE Castle Defense"></h1>
-            <h2 class="slogan"><img src="dist/images/slogan.png" alt="迎擊!世界城池，絕對守護《立即預約登錄 週週再抽Switch、Apple Watch》"></h2>
-            <ul class="feature">
-                <li>日本頂尖遊戲開發商<br>DMM製作</li>
-                <li>日本多位知名<br>聲優獻聲</li>
-                <li>日本百萬會員數<br>突破130萬人</li>
-                <li>日本DMM<br>蟬聯人氣排行榜首</li>
-            </ul>
-            
-            <a class="login" href="javascript:"><img src="dist/images/button/btn_login.png" alt=""></a>
-        </header>
-        
-        <main>
-
-            <div class="group">
-
-                <section id="login">
-                    <div class="title"><img src="dist/images/title/title_login.png" alt="立即登錄事前預約活動"></div>
-                    <div class="count">
-                        <p>預約人數</p>
-                        <p class="num">0</p>
-                    </div>
-                    <form>
-                        <dl>
-                            <dt><img src="dist/images/title/title_step1.png"></dt>
-                            <dd>
-                                <a class="memberLogin" href="javascript:"><img src="dist/images/button/btn_memberLogin.png" alt="會員登入"></a>
-                                <p class="status"></p>
-                            </dd>
-                        </dl>
-                        <dl>
-                            <dt><img src="dist/images/title/title_step2.png"></dt>
-                            <dd>
-                                <a class="fb" href="https://www.facebook.com/SNSOshiroRE/" target="_blank"><img src="dist/images/button/btn_fb.png" alt="粉絲團按讚"></a>
-                            </dd>
-                        </dl>
-                        <dl>
-                            <dt><img src="dist/images/title/title_step3.png"></dt>
-                            <dd>
-                                <label><input type="radio" name="device" value="3">Android</label>
-                                <label><input type="radio" name="device" value="2">IOS</label>
-                            </dd>
-                        </dl>
-                        <dl>
-                            <dt><img src="dist/images/title/title_step4.png"></dt>
-                            <dd>
-                                <select name="area">
-                                    <option value="null">請選擇</option>
-                                    <option value="886">886 (台灣)</option>
-                                    <option value="852">852 (香港)</option>
-                                    <option value="853">853 (澳門)</option>
-                                </select>
-                                <input type="number" name="phone" placeholder="請輸入電話號碼" value="">
-                            </dd>
-                        </dl>
-                        <div class="center"><label><input type="checkbox" name="agree">同意好玩家對個人資料蒐集、處理及應用</label></div>
-                        <button type="submit"><img src="dist/images/button/btn_submit.png" alt="送出"></button>
-                    </form>
-                    <div class="leftChar"><img src="dist/images/himeji.png"></div>
-                    <div class="rightChar"><img src="dist/images/Ichij.png"></div>
-                </section>
-
-                <section id="achieved">
-                    <div class="title"><img src="dist/images/title/title_achieved.png" alt="累積達成全服送"></div>
-                    <p>《累積登錄人數，全服即可獲得下列獎勵》</p>
-                    <ul>
-                        <li data-achieved="20000"><img class="get" src="dist/images/get.png"><img src="dist/images/achieved/20000.png" alt="安平古堡 ★3"></li>
-                        <li data-achieved="40000"><img class="get" src="dist/images/get.png"><img src="dist/images/achieved/40000.png" alt="真田丸 ★4"></li>
-                        <li data-achieved="60000"><img class="get" src="dist/images/get.png"><img src="dist/images/achieved/60000.png" alt="品川台場 ★5"></li>
-                        <li data-achieved="80000"><img class="get" src="dist/images/get.png"><img src="dist/images/achieved/80000.png" alt="靈珠25顆"></li>
-                        <li data-achieved="100000"><img class="get" src="dist/images/get.png"><img src="dist/images/achieved/100000.png" alt="靈珠50顆"></li>
-                    </ul>
-                    <p>Note:累積登錄人數達成10萬人</p>
-                    <p>全服每人共可獲得 ★3安平古堡、 ★4真田丸、 ★5品川台場、靈珠75顆</p>
-                </section>
-
-            </div>
-
-            <section id="plus">
-                <div class="title"><img src="dist/images/title/title_plus.png" alt="事前活動再加碼"></div>
-                <div class="inner">
-
-                    <img src="dist/images/title/title_game1.png">
-                    <div class="jigsaw">
-                        <img class="status" src="dist/images/lock_login.jpg">
-                        <img class="thumbnail" src="">
-                    </div>
-
-                    <img src="dist/images/title/title_game2.png">
-                    <div class="jigsaw_rdy">
-                        <img src="dist/images/lock_ready.jpg" alt="即將開啟">
-                    </div>
-                    
-                </div>
-                <div class="leftChar"><img src="dist/images/girl_1.png"></div>
-                <div class="rightChar"><img src="dist/images/girl_2.png"></div>
-            </section>
-
-            <section id="character">
-
-                <audio></audio>
-                <div class="title"><img src="dist/images/title/title_character.png" alt="人物介紹"></div>
-
-                <div class="inner">
-
-                    <ul class="charBg">
-                        <li><img src="dist/images/character/bg/bg_1.png"></li>
-                        <li><img src="dist/images/character/bg/bg_2.png"></li>
-                        <li><img src="dist/images/character/bg/bg_3.png"></li>
-                        <li><img src="dist/images/character/bg/bg_4.png"></li>
-                        <li><img src="dist/images/character/bg/bg_5.png"></li>
-                        <li><img src="dist/images/character/bg/bg_6.png"></li>
-                    </ul>
-
-                    <ul class="charFull">
-                        <li><img src="dist/images/character/full/full_1.png"></li>
-                        <li><img src="dist/images/character/full/full_2.png"></li>
-                        <li><img src="dist/images/character/full/full_3.png"></li>
-                        <li><img src="dist/images/character/full/full_4.png"></li>
-                        <li><img src="dist/images/character/full/full_5.png"></li>
-                        <li><img src="dist/images/character/full/full_6.png"></li>
-                    </ul>
-
-                    <ul class="charName">
-                        <li><img src="dist/images/character/name/name_1.png"></li>
-                        <li><img src="dist/images/character/name/name_2.png"></li>
-                        <li><img src="dist/images/character/name/name_3.png"></li>
-                        <li><img src="dist/images/character/name/name_4.png"></li>
-                        <li><img src="dist/images/character/name/name_5.png"></li>
-                        <li><img src="dist/images/character/name/name_6.png"></li>
-                    </ul>
-
-                    <ul class="charSound">
-                        <li><img src="dist/images/button/btn_voice1.jpg"></li>
-                        <li><img src="dist/images/button/btn_voice2.jpg"></li>
-                        <li><img src="dist/images/button/btn_voice3.jpg"></li>
-                    </ul>
-
-                    <ul class="charIntro">
-                        <li>是個熱情、活潑的偶像派少女<br>大家眼中的靈魂人物，喜歡與大家打成一片，因此被許多城娘視為崇拜的對象，但卻經常到處開誦經會(演唱會)?!</li>
-                        <li>是個正直、善良、害羞的可愛少女<br>為人善良但過於拘謹，內心的小世界豐富，明明很喜歡殿但又不敢直接向殿表達自已的心意。</li>
-                        <li>繼承了築城主伊達政宗之魂的少女，相當有骨氣 ! 是個獨眼、極具有伊達政宗魂、反差萌少女的城娘。其夢想是協助殿一統天下! 看似是一名相當有男子氣概的少女，但其實相當喜歡參加祭典活動以及非常非常害怕地震及火災…!?</li>
-                        <li>是個病弱感十足、喵喵叫、富有博愛精神的少女 ! 由於技能可以放出招財貓，所以又被稱為「彥根喵」說話時常咳嗽、聲音虛弱，因此獲得許多關愛的眼神。</li>
-                        <li>是個節省、怕孤單的氣質少女<br>台南安平城化身而成的城娘，鄭氏政權三代皆居住於此，所以被稱為王城的高貴城娘，行為舉止都相當優雅，標準的大小姐 ! 弱點非常怕火，看到火整個人會相當驚慌。</li>
-                        <li>是一位擅長書法的文靜少女<br>正值青春年華的她對於戀愛相當嚮往，也對殿是否為單身非常的好奇，每天都在找機會詢問 ! 最大的夢想就是找殿去指月山約會，看似溫和的她隱藏著不為人知的另一面…!?</li>
-                    </ul>
-
-                    <ul class="ctrl">
-                        <li><img src="dist/images/character/avatar/01.jpg" title="大坂城"></li>
-                        <li><img src="dist/images/character/avatar/02.jpg" title="柳川城"></li>
-                        <li><img src="dist/images/character/avatar/03.jpg" title="仙台城"></li>
-                        <li><img src="dist/images/character/avatar/04.jpg" title="彥根城"></li>
-                        <li><img src="dist/images/character/avatar/05.jpg" title="安平城"></li>
-                        <li><img src="dist/images/character/avatar/06.jpg" title="荻城"></li>
-                    </ul>
-
-                </div>
-
-            </section>
-
-        </main>
-
-        <footer>
-            <div class="inner">
-                <dl class="copyright">
-                    <dt><img src="dist/images/snsplus.png" alt="snsplus"></dt>
-                    <dd><p>Published by SNSplus Inc. Copyright &copy; DMM GAMES.</p></dd>
-                </dl>
-                <dl class="regulation">
-                    <dt><img src="dist/images/15plus.png" alt="輔15級"></dt>
-                    <dd>
-                        <p>本遊戲內容涉及暴力(攻擊等血腥畫面)、遊戲角色穿著凸顯性特徵之服飾。</p>
-                        <p>本遊戲設有商城加值區，請依個人興趣、能力進行體驗，應避免過度消費。</p>
-                        <p>長時間進行遊戲，容易影響正常作息，宜適度休息及運動。</p>
-                    </dd>
-                </dl>
-            </div>
-            <div class="inner_m">
-                <p><img src="dist/images/snsplus.png" alt="snsplus"><img src="dist/images/15plus.png" alt="輔15級"></p>
-                <p>Published by SNSplus Inc. Copyright &copy; DMM GAMES.</p>
-                <p>本遊戲內容涉及暴力(攻擊等血腥畫面)、遊戲角色穿著凸顯性特徵之服飾。本遊戲設有商城加值區，請依個人興趣、能力進行體驗，應避免過度消費。長時間進行遊戲，容易影響正常作息，宜適度休息及運動。</p>
-            </div>
-        </footer>
-
-    </div>
-
-    <div id="notify"></div>
-
-    <div id="toTop"></div>
-
-    <div id="notice">
-        <div class="title"><img src="dist/images/title/title_notice.png" alt="注意事項"></div>
-        <ul>
-            <li>事前登錄活動時間為即日起至上市當日23:59</li>
-            <li>每個手機號碼僅限參加一次活動，每種獎勵也僅限領取一次。</li>
-            <li>遊戲相關之獎勵序號，每個遊戲帳號僅限兌換一次，可於上市後於官網「虛寶兌換」處兌換。</li>
-            <li>若個人資料輸入錯誤，導致獎勵無法發送，恕不補發。</li>
-            <li>實體獎勵得獎名單，將在活動結束後於官方粉絲團公布。</li>
-            <li>若發生獎勵缺貨或其它無法採買之情事，將以同類型且價位相近之獎勵取代。</li>
-            <li>活動獎勵皆無法轉讓、折抵現金或其它等值商品，若拒絕領取則視同放棄得獎資格。</li>
-            <li>實體獎勵得獎者須於得獎名單公布後14天內，主動通過客服信箱或官方粉絲團聯繫官方，並完成領獎手續，否則視同放棄得獎資格。</li>
-            <li>為處理活動獎勵發送與其它相關業務，得獎者相關個人資料將提供給獎勵發送之相關單位使用，獎勵作業完成後相關資訊將進行刪除不予保留。</li>
-            <li>依中華民國稅法規定，本活動獎勵為機會中獎獎品價值超過新台幣 2 萬元（含），將由主辦單位代扣 10% 機會中獎稅 (非中華民國境內居住之個人，依法扣繳 20% 稅金)。機會中獎獎品獎價值如超過 $1,000 元以上者，依法需納入年度個人綜合所得總額進行申報，扣繳憑單將由主辦單位寄發予得獎者，請務必據實申報；中獎者需提供並填寫中獎者資料，繳交身分證正反面影本。如中獎者不同意繳交稅款或提供領獎所需資料，則視為放棄領獎資格。</li>
-            <li>如有發現使用不當或非法手段參與活動，《SNS+》有權取消該玩家及所有相關帳號之得獎資格。</li>
-            <li>若有未盡事宜，主辦單位保有變更、調整及終止本活動之權利，變更內容將於官方網站或官方粉絲團公告，恕不另行通知。</li>
-        </ul>
-    </div>
-
-    <div id="complete">
-        <a class="fbShare" href="javascript:"></a>
-    </div>
-
-    <div id="sakuraWrap"></div>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136954071-2"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-136954071-2');
+        $(function ()
+        {
+            $.getScript('https://connect.facebook.net/zh_TW/sdk.js', function()
+            {
+                FB.init({
+                    appId: '409476035897217',
+                    version: 'v3.2'
+                });
 
-        document.querySelector('#login button[type="submit"]').addEventListener('click', ()=>{
-            gtag('event', '點擊', {
-                'event_category': '完成預約'
+                FB.Event.subscribe('auth.statusChange', ()=>{
+                    console.log('1');
+                    
+                });
+
+                FB.getLoginStatus((response)=>{
+                    console.log(response);
+                });
+
+                // FB.ui({
+                //     method: 'share',
+                //     href: 'https://developers.facebook.com/docs/',
+                // }, function(response){});
             });
         });
     </script>
+    <style>
+        .fb-like{
+            /* width: 50%; */
+            /* background: red; */
+        }
+        .fb-like iframe{
+            /* margin:0 auto; */
+            /* float:none; */
+            /* border-radius:3px; */
+            /* display:block; */
+            /* max-width:105px; */
+            /* padding-top:2px; */
+            /* padding-left:2px; */
+            /* padding: 20px; */
+            /* box-shadow:2px 2px 0px #222; */
+            /* height:35px; */
+            /* border:6px solid #3D58A4 !important; */
+            /* background: #3D58A4; */
+        }
+    </style>
 
 </body>
 
