@@ -7,7 +7,16 @@ const fbPromise: Promise<void> = $.getScript('https://connect.facebook.net/zh_TW
 });
 
 $('a.login').click(()=>OnResolved(()=>{
-    FB.login();
+    FB.login((response:fb.StatusResponse)=>{
+        console.log(response.status);
+
+    });
+}));
+
+$('a.logout').click(()=>OnResolved(()=>{
+    FB.logout((response:fb.StatusResponse)=>{
+        console.log(response.status);
+    });
 }));
 
 function OnResolved(callback:Function){
