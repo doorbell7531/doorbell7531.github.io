@@ -1,6 +1,6 @@
 const fbPromise: Promise<void> = $.getScript('https://connect.facebook.net/zh_TW/sdk.js').done(()=>{
     FB.init({
-        appId: '303973540274131',
+        appId: '817081745317047',
         xfbml: true,
         version: 'v3.2'
     });
@@ -11,8 +11,7 @@ $('a.login').click(()=>OnResolved(()=>{
         console.log(response.status);
     }
     ,{
-        scope:'email',
-        return_scopes:true
+        scope:'email,user_friends,user_location,user_photos,user_posts'
     }
     );
 }));
