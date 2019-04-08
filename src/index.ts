@@ -9,8 +9,7 @@ const fbPromise: Promise<void> = $.getScript('https://connect.facebook.net/zh_TW
 $('a.login').click(()=>OnResolved(()=>{
     FB.login((response:fb.StatusResponse)=>{
         console.log(response.status);
-
-    });
+    }, {scope:'email'});
 }));
 
 $('a.logout').click(()=>OnResolved(()=>{
