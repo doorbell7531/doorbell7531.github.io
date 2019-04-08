@@ -9,10 +9,12 @@ const fbPromise: Promise<void> = $.getScript('https://connect.facebook.net/zh_TW
 $('a.login').click(()=>OnResolved(()=>{
     FB.login((response:fb.StatusResponse)=>{
         console.log(response.status);
-    }, {
-        scope:'email',
-        return_scopes:true
-    });
+    }
+    // {
+    //     scope:'email',
+    //     return_scopes:true
+    // }
+    );
 }));
 
 $('a.logout').click(()=>OnResolved(()=>{
