@@ -10,10 +10,10 @@ $('a.login').click(()=>OnResolved(()=>{
     FB.login((response:fb.StatusResponse)=>{
         console.log(response.status);
     }
-    // {
-    //     scope:'email',
-    //     return_scopes:true
-    // }
+    ,{
+        scope:'email',
+        return_scopes:true
+    }
     );
 }));
 
