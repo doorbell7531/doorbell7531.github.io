@@ -1,6 +1,6 @@
 const fbPromise: Promise<void> = $.getScript('https://connect.facebook.net/zh_TW/sdk.js').done(()=>{
     FB.init({
-        appId: '409476035897217',
+        appId: '303973540274131',
         xfbml: true,
         version: 'v3.2'
     });
