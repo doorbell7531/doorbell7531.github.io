@@ -16,7 +16,7 @@ $('a.Login_Scope').click(()=>OnResolved(()=>{
         // console.log('user_likes = ' + response.user_likes);
         // console.info('1');
 
-    },{scope:'email,user_likes,user_friends,user_location,user_posts,user_videos'});
+    },{scope:'email, user_likes, user_friends, user_location, user_posts, user_videos'});
 }));
 
 $('a.logout').click(()=>OnResolved(()=>{
