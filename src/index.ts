@@ -9,6 +9,8 @@ const fbPromise: Promise<void> = $.getScript('https://connect.facebook.net/zh_TW
 $('a.Login_Scope').click(()=>OnResolved(()=>{
     FB.login((response:fb.StatusResponse)=>
     {
+        console.log(response.authResponse);
+        console.log(response.authResponse.userID);
         console.log(response.status);
         
         // console.log('name = ' + response.name);
