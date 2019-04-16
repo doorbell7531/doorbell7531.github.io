@@ -1,0 +1,53 @@
+@charset "UTF-8";
+*, html, body {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 1vmax;
+  font-family: "微軟正黑體", "Microsoft JhengHei", Arial, Verdana, "Trebuchet MS", sans-serif;
+}
+
+img {
+  border: none;
+}
+
+ul, ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+input {
+  outline: none;
+  font-family: "微軟正黑體", "Microsoft JhengHei", Arial, Verdana, "Trebuchet MS", sans-serif;
+}
+
+select {
+  font-family: "微軟正黑體", "Microsoft JhengHei", Arial, Verdana, "Trebuchet MS", sans-serif;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  position: relative;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+}
+
+#main {
+  margin: 0 auto;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+}
