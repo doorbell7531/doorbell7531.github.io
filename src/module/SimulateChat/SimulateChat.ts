@@ -79,23 +79,23 @@ export default class SimulateChat
                     
                     this.xml = xml;
                 }
-            }),
-            $.ajax({
-                url:this.config.PATH_IMG + 'avatar/',
-                success:(data) => {
-                    $(data).find('a:contains(.jpg)').each(function(){
-                        (new Image()).src = this;
-                    });
-                }
-            }),
-            $.ajax({
-                url:this.config.PATH_IMG + 'sticker/',
-                success:(data) => {
-                    $(data).find('a:contains(.gif)').each(function(){
-                        (new Image()).src = this;
-                    });
-                }
             })
+            // $.ajax({
+            //     url:this.config.PATH_IMG + 'avatar/',
+            //     success:(data) => {
+            //         $(data).find('a:contains(.jpg)').each(function(){
+            //             (new Image()).src = this;
+            //         });
+            //     }
+            // }),
+            // $.ajax({
+            //     url:this.config.PATH_IMG + 'sticker/',
+            //     success:(data) => {
+            //         $(data).find('a:contains(.gif)').each(function(){
+            //             (new Image()).src = this;
+            //         });
+            //     }
+            // })
         ).done(()=>
         {
             if(callback != undefined) callback();
