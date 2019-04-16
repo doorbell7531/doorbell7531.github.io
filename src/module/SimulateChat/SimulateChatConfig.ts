@@ -1,10 +1,10 @@
 export class SimulateChatConfig
 {
     /** 腳本路徑 */
-    public PATH_SCRIPT:string = './dist/scripts/';
+    public PATH_SCRIPT:string = '../../dist/scripts/';
 
     /** 圖片路徑 */
-    public PATH_IMG:string = './dist/images/'
+    public PATH_IMG:string = '../../dist/images/'
 
     /**
      * 角色設定
