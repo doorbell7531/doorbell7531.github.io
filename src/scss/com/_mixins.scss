@@ -1,0 +1,87 @@
+// CSS重置
+@mixin ResetCSS
+{
+    $fontFamily:"微軟正黑體", "Microsoft JhengHei" , Arial, Verdana, "Trebuchet MS", sans-serif;
+    // $fontFamily:Arial, "新細明體", Helvetica, sans-serif;
+
+    *, html, body {
+        margin: 0;
+        padding: 0;
+        line-height:normal;
+        box-sizing: border-box;
+    }
+
+    body{
+        font-size:1vmax;
+        font-family:$fontFamily;
+    }
+    
+    img{border:none;}
+    
+    ul, ul li{
+        list-style:none;
+        margin:0;
+        padding:0;
+    }
+
+    a{
+        text-decoration: none;
+        border: none;
+        outline: none;
+    }
+
+    input{
+        outline:none;
+        font-family:$fontFamily;
+    }
+    select{
+        font-family:$fontFamily;
+    }
+    input[type="checkbox"], input[type="radio"]{
+        position:relative;
+        // top:2px;
+        // margin:0 3px 0 0;
+    }
+    input[type="submit"]{cursor:pointer;}
+}
+
+//清除浮動
+@mixin AfterClear
+{
+    &::after{
+        content: "";
+        display: block;
+        height: 0;
+        line-height: 0;
+        visibility: hidden;
+        font-size: 0;
+        clear: both;
+    }
+}
+
+@mixin HoverBright($brightness:1.3)
+{
+    &:hover{
+        filter: brightness($brightness);
+    }
+}
+
+//RWD設定
+@mixin MediaQuery($type:0, $min-width:360px, $max-width:1440px)
+{
+    //小於$max-width
+    @if($type == 0)
+    {
+        @media screen and (max-width:$max-width){@content;}
+    }
+    //大於$min-width
+    @else if($type == 1)
+    {
+        @media screen and (min-width:$min-width){@content;}
+    }
+    //介於$min-width和$max-width之間
+    @else if($type == 2)
+    {
+        @media screen and (min-width:$min-width) and (max-width:$max-width){@content;}
+    }
+}

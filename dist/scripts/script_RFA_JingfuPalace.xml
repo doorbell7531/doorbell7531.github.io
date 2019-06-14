@@ -1,0 +1,131 @@
+<!-- DAY2景福宮 -->
+<!-- ?type=RFA&script=JingfuPalace -->
+<simulateChatScript>
+
+    <add charID="104" />
+    <add charID="101" />
+    <add charID="103" />
+    <add charID="100" />
+
+    <talk charID="104">今天的重頭戲是要讓MC跟我們一起體驗韓國文化!</talk>
+    <talk charID="104">為了今天，我還特地把主旻中秋節送我的韓服也拿出來了。</talk>
+    <talk charID="104">我想主旻應該也把他騷包的龍袍穿出來了吧......</talk>
+
+    <talk charID="103">我會穿著龍袍是因為它很適合我。</talk>
+
+    <talk charID="104">MC妳知道嗎!</talk>
+    <talk charID="104">臭富二代為自己選的是韓國古代皇帝穿的韓服!</talk>
+
+    <talk charID="101">ZEN你不是去年中秋節就看過了嗎?</talk>
+    <talk charID="101">幹嘛還這麼大驚小怪?</talk>
+
+    <talk>哈哈哈不要鬥嘴啦!</talk>
+    <talk>是說…為甚麼沒看到濟希啊?</talk>
+
+    <talk charID="103">鬥嘴這種既浪費時間又無法創造收益的事情我是不會做的。</talk>
+    <talk charID="103">姜秘書還在公司規劃關於伊莉莎白三世新的企畫，趕不過來。</talk>
+
+    <talk charID="104">難得大家可以聚在一起，你居然讓濟希待在公司忙你那隻毛球的企劃!</talk>
+    <talk charID="104">更何況那種企劃聽起來根本就不重要!!</talk>
+
+    <talk charID="100">這次為了美麗的伊莉要製作怎麼樣的企劃呢?</talk>
+    <talk charID="100">如果是要打造伊莉專屬的太空船，我很樂意帶著伊莉一起去外太空旅行喔~</talk>
+    <talk charID="100">#sticker1000;</talk>
+
+    <talk charID="103">帶著伊莉莎白三世去太空旅行的主意…很不錯!!</talk>
+    <talk charID="103">但絕對不會是讓你帶著她去的,Luciel。</talk>
+    <talk charID="103">你別想接近我美麗的伊莉莎白三世。</talk>
+
+    <talk charID="101">所以今天到底有誰會來啊??</talk>
+    <talk charID="101">我好混亂啊!!</talk>
+    <talk charID="101">#sticker1014;</talk>
+
+    <talk charID="103">姜秘書還在辦公室。</talk>
+    <talk charID="103">今天早上剛好是v的展覽開幕式，他也沒辦法來。</talk>
+
+    <talk>真是太可惜了。</talk>
+    <talk>認識你們也快要一年了。</talk>
+    <talk>想起去年的中秋節實在是發生了很多事呢!</talk>
+    
+    <talk charID="104">是啊!</talk>
+    <talk charID="104">一年裡面，很高興MC都在我們身邊。</talk>
+    <talk charID="104">只要能見到MC，我就覺得很幸福呢。</talk>
+
+    <talk charID="100">你要是能常常回來就更好了呢MC</talk>
+    <talk charID="100">你可愛的小SEVEN一直在這兒等你喔~</talk>
+    <talk charID="100">#sticker1004;</talk>
+
+    <talk charID="101">SEVEN你在說什麼啦!</talk>
+    <talk charID="101">MC要是一天到晚飛韓國會沒錢的!</talk>
+    <talk charID="101">#sticker1016;</talk>
+
+    <talk charID="100">流星你還小，也許有一天你會明白的。</talk>
+    <talk charID="100">現在，這種孤獨又奧妙的感受，就先由我GOD SEVEN獨自承擔吧!</talk>
+    <talk charID="100">#sticker1000;</talk>
+    <talk charID="100">#sticker1000;</talk>
+    <talk charID="100">#sticker1000;</talk>
+
+    <talk charID="103">只要看到妳，就會忍不住浮現想將妳永遠留下的慾望。</talk>
+    <talk charID="103">如果可以真希望妳能再待久一點。</talk>
+
+    <talk charID="104">嗶嗶!!!危險話語禁止!</talk>
+    <talk charID="104">#sticker1040;</talk>
+    <talk charID="104">昨天把MC交在你這種人手上真是太危險了!</talk>
+    <talk charID="104">而且還是晚上的行程!!</talk>
+
+    <talk charID="103">不論任何事，我會先尊重MC的想法才會進行。</talk>
+    <talk charID="103">如果你能理解，就會知道MC已經有自己獨立思考判斷的能力。</talk>
+
+    <talk charID="101">別吵架啊啊啊啊!</talk>
+    <talk charID="101">趕快換衣服啦!MC都快到了!</talk>
+    <talk charID="101">我的帽子去哪裡了我找不到啊!</talk>
+    <talk charID="101">#sticker1013;</talk>
+
+    <talk charID="100">你說的帽子是這個飛碟的下半部份嗎?</talk>
+
+    <talk charID="101">#sticker1017;</talk>
+    <talk charID="101">#sticker1017;</talk>
+    <talk charID="101">#sticker1017;</talk>
+    <talk charID="101">不要玩我的帽子啦!!!</talk>
+
+    <talk>其實不急啦…</talk>
+    <talk>我到了那邊也要先換韓服啊哈哈。</talk>
+
+    <talk charID="104">不行!用完美的衣著面對觀眾是作為演員的基本素養!</talk>
+    <talk charID="104">即使是在日常生活中也要完美的實行!</talk>
+    <talk charID="104">我也得趕快換衣服了，先走啦!</talk>
+    <talk charID="104">MC待會見，千萬別被我的美貌嚇到了。</talk>
+    <talk charID="104">#sticker1043;</talk>
+
+    <remove charID="104" />
+
+    <talk charID="100">我還在兩套服裝中左右為難呢!</talk>
+    <talk charID="100">#sticker1004;</talk>
+    <talk charID="100">到底要選正式的韓服還是再來一次我的韓服仙女COSPLAY-中秋節特輯呢?</talk>
+    <talk charID="100">真是甜蜜的負擔啊!</talk>
+
+    <talk charID="101">SEVEN你不要再打破我對仙女的幻想了!</talk>
+    <talk charID="101">給我穿正常的韓服出現啊!</talk>
+    <talk charID="101">#sticker1013;</talk>
+    <talk charID="101">我要去處理我的帽子了啦!上面都是奇怪的膠水!</talk>
+    <talk charID="101">MC待會見囉!掰!</talk>
+
+    <talk charID="100">沒有我的可卡可樂特製除膠劑你是拆不開的。</talk>
+    <talk charID="100">偉大的707要去解救迷途的小流星嚕~</talk>
+    <talk charID="100">#sticker1001;</talk>
+
+    <remove charID="100" />
+    <remove charID="101" />
+
+    <talk>SEVEN真是很有趣呢。</talk>
+    <talk>主旻你不用去換衣服嗎?</talk>
+
+    <talk charID="103">我在家換好後會再由司機開車載我過去。</talk>
+    <talk charID="103">時間上還很充分。</talk>
+    <talk charID="103">但換衣服前我還有個例行工作，要陪伊莉莎白三世吃飯。</talk>
+    <talk charID="103">所以我先失陪了。待會見。</talk>
+    <talk charID="103">#sticker1030;</talk>
+
+    <remove charID="103" />
+
+</simulateChatScript>

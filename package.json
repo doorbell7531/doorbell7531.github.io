@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "b":"webpack",
-    "b-p":"webpack -p"
+    "b": "webpack",
+    "b-p": "webpack -p"
   },
   "keywords": [],
   "author": "",

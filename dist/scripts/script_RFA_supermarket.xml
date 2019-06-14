@@ -1,0 +1,152 @@
+<!-- day4樂天超市 -->
+<!-- ?type=RFA&script=supermarket -->
+<simulateChatScript>
+
+    <add charID="104" />
+    <add charID="100" />
+    <add charID="103" />
+    <add charID="102" />
+    <add charID="101" />
+    <add charID="105" />
+    <add charID="106" />
+
+    <talk charID="104">MC今天是旅程的最後一天了。</talk>
+    <talk charID="104">妳玩得還開心嗎?</talk>
+
+    <talk charID="101">不要走嘛</talk>
+    <talk charID="101">再留下來多玩幾天~</talk>
+    <talk charID="101">#sticker1015;</talk>
+
+    <talk charID="106">MC還有事情要等著回國處理呢。</talk>
+    <talk charID="106">對了，今天的行程沒有人招待MC嗎?</talk>
+
+    <talk charID="102">今天是讓MC買些紀念品回台灣的行程。</talk>
+    <talk charID="102">雖然我們今天都沒辦法到場，但我已經幫MC規畫好行程了。</talk>
+
+    <talk charID="106">濟希辛苦你了。</talk>
+    <talk charID="106">#sticker1060;</talk>
+
+    <talk charID="101">要不是今天是大刀教授的課。</talk>
+    <talk charID="101">不然我一定會翹課去陪MC的!</talk>
+
+    <talk charID="103">人要先為自己的行為負責，才有能力為重視的人付出。</talk>
+    <talk charID="103">今天我與父親約好了一起用餐，我也無法在場陪MC。</talk>
+
+    <talk charID="100">妳覺得我不在，但我四處都在!</talk>
+    <talk charID="100">每一個監視器，都能讓我清楚的看見妳的身影。</talk>
+    <talk charID="100">因為我是駭客之神 GOD SEVEN!</talk>
+    <talk charID="100">#sticker1001;</talk>
+    <talk charID="100">MC正在前往樂天市場的路上吧。</talk>
+    <talk charID="100">我已經幫你規畫好了前往蜂蜜奶油洋芋片的最佳路線囉!</talk>
+
+    <talk charID="104">沒有人需要這個路線!</talk>
+    <talk charID="104">MC上次幫妳挑的面膜，妳用完了嗎?</talk>
+    <talk charID="104">持之以恆的保養可以幫助肌膚，一定要記得喔!</talk>
+    <talk charID="104">當然，敷可愛的面膜時記得傳照片給我。</talk>
+    <talk charID="104">#sticker1043;</talk>
+
+    <talk charID="100">蜂蜜奶油洋芋片是世界上最偉大的食物!</talk>
+    <talk charID="100">怎麼會有人不需要呢?</talk>
+    <talk charID="100">蜂蜜奶油洋芋片….面膜!!!</talk>
+    <talk charID="100">我找到新商機了!</talk>
+    <talk charID="100">#sticker1000;</talk>
+    <talk charID="100">#sticker1000;</talk>
+    <talk charID="100">#sticker1000;</talk>
+
+    <talk charID="103">說到面膜。</talk>
+    <talk charID="103">上次ZEN生日時，敷的面膜廠商已經被C&amp;R買下來了。</talk>
+    <talk charID="103">狗狗面膜啟發了我的想法。</talk>
+    <talk charID="103">純白色的伊莉莎白三世，一定比狗的圖案更適合當面膜的造型。</talk>
+    <talk charID="103">#sticker1030;</talk>
+
+    <talk charID="104">哈…哈啾!</talk>
+    <talk charID="104">連我生日的美好回憶你都要讓它變成惡夢嗎!</talk>
+    <talk charID="104">#sticker1040;</talk>
+
+    <talk charID="100">是吧~</talk>
+    <talk charID="100">我的創意果然才是最棒的!</talk>
+    <talk charID="100">#sticker1004;</talk>
+
+    <talk charID="104">並沒有…</talk>
+    <talk charID="104">蜂蜜奶油洋芋片的面膜聽起來敷了就會長痘痘。</talk>
+    <talk charID="104">我美麗的臉龐可不能被痘痘佔據。</talk>
+
+    <talk charID="101">會嗎?我覺得蜂蜜奶油洋芋片聽起來超棒的耶!</talk>
+    <talk charID="101">神之食物!</talk>
+    <talk charID="101">#sticker1014;</talk>
+
+    <talk charID="102">zen說得對!</talk>
+    <talk charID="102">如果他的臉龐因為痘痘留下痕跡，那一定是全人類的損失!  </talk>
+    <talk charID="102">我無法想像那樣子悲慘的事情發生!</talk>
+
+    <talk>雖然你們今天都無法到場，但能在app上跟你們聊聊我還是很開心。</talk>
+
+    <talk charID="104">未來的每一天，只要妳願意我們都會在聊天室等妳的。</talk>
+    <talk charID="104">#sticker1043;</talk>
+
+    <talk>最後一天了！好捨不得大家喔！</talk>
+
+    <reply>
+        <option insert="option-1-a">seven有什麼話想跟我說嗎？</option>
+        <option insert="option-1-b">濟希有什麼話想跟我說嗎？</option>
+        <option insert="option-1-c">zen有什麼話想跟我說嗎？</option>
+        <option insert="option-1-d">主旻有什麼話想跟我說嗎？</option>
+        <option insert="option-1-e">流星有什麼話想跟我說嗎？</option>
+        <option insert="option-1-f">v有什麼話想跟我說嗎？</option>
+        <option insert="option-1-g">ray有什麼話想跟我說嗎？</option>
+    </reply>
+
+    <remove charID="104" />
+    <remove charID="100" />
+    <remove charID="103" />
+    <remove charID="102" />
+    <remove charID="101" />
+    <remove charID="105" />
+    <remove charID="106" />
+
+    <!-- insert -->
+    <insert id="option-1-a">
+        <talk charID="100">我想妳也發現了，我將接待妳的地點選在我的家，是因為我一向不喜歡人多的地方，一方面也是因為我情報員的身分不便拋頭露面。</talk>
+        <talk charID="100">但是希望妳能理解，我願意帶妳來我家意味著什麼。</talk>
+        <talk charID="100">妳願意陪我一起，遠離我曾經所處的黑暗嗎?</talk>
+    </insert>
+
+    <insert id="option-1-b">
+        <talk charID="102">也許哪一天，我們可以一起開一間咖啡廳。</talk>
+        <talk charID="102">這樣每一天我都可以見到妳，我們可以聊天聊一整夜。</talk>
+        <talk charID="102">與喜歡的人一起做事，一定不會感覺到疲倦的對吧?</talk>
+    </insert>
+
+    <insert id="option-1-c">
+        <talk charID="104">我當演員的路上，希望一路有妳相伴。</talk>
+        <talk charID="104">這次和妳見面後，給了我未來更努力的勇氣。</talk>
+        <talk charID="104">我會在韓國繼續打拼，等待妳再次來我身邊</talk>
+    </insert>
+
+    <insert id="option-1-d">
+        <talk charID="103">我願意與妳嘗試各式各樣的生活。</talk>
+        <talk charID="103">並在此同時將我認為最好的給妳。</talk>
+        <talk charID="103">下次妳回來，我就當作妳同意留在我身邊。</talk>
+        <talk charID="103">我不會再讓妳像這樣坐上離開我的班機。</talk>
+    </insert>
+
+    <insert id="option-1-e">
+        <talk charID="101">我對我的未來還有點徬徨。</talk>
+        <talk charID="101">但是因為妳，我開始能夠描繪未來。</talk>
+        <talk charID="101">我會努力變成讓妳有安全感的男人。</talk>
+        <talk charID="101">答應我妳會再回來，好不好?</talk>
+    </insert>
+
+    <insert id="option-1-f">
+        <talk charID="106">在妳身邊讓我感覺非常舒服自在，能夠做真正的自己。</talk>
+        <talk charID="106">這都是因為妳的鼓勵讓我找到了答案，是妳讓我敢再次去愛人。</talk>
+        <talk charID="106">我會繼續創作，等妳回到我身邊和我攜手彩繪未來。</talk>
+    </insert>
+
+    <insert id="option-1-g">
+        <talk charID="105">我可能再也找不到像你這樣可以接納全部的我的人。</talk>
+        <talk charID="105">在妳不在韓國的期間，我會隨時為妳的快樂及安全祈禱的。</talk>
+        <talk charID="105">也許…也許妳想起我時，也可以打電話給我。</talk>
+    </insert>
+
+</simulateChatScript>
