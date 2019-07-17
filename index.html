@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>WheelFortune</title>
+    <title>WheelRoulette</title>
 
     <script defer src="./dist/js/index.bundle.js"></script>
 </head>
 <body>
-    <div id="wheelFortune"></div>
+    <div id="wheelRoulette"></div>
 
     <div class="pannel">
         <div>
@@ -37,12 +37,24 @@
         <button class="spin">轉動</button>
     </div>
 
+    <script>
+        var script=document.createElement('script');
+        script.onload=function()
+        {
+            var stats=new Stats();
+            document.body.appendChild(stats.dom);
+            requestAnimationFrame(function loop(){stats.update();requestAnimationFrame(loop)});
+        };
+        script.src='//mrdoob.github.io/stats.js/build/stats.min.js';
+        document.head.appendChild(script);
+    </script>
+    
     <style>
         *, html{
             margin: 0;
             padding: 0;
         }
-        #wheelFortune{
+        #wheelRoulette{
             max-width: 1024px;
             height: 768px;
             margin: 0 auto;
