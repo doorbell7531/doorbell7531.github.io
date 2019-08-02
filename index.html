@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>WheelRoulette</title>
+    <title>RectRoulette</title>
 
-    <script defer src="./dist/js/index.bundle.js"></script>
+    <script defer src="dist/js/index.bundle.js"></script>
+
 </head>
+
 <body>
-    <div id="wheelRoulette"></div>
+
+    <div id="rectRoulette"></div>
 
     <div class="pannel">
         <div>
             <label><input type="checkbox" name="showUid" checked>顯示uid</label>
             <label><input type="checkbox" name="showName" checked>顯示名稱</label>
-        </div>
-        <div class="resulution">
-            解析度：
-            <input type="number" name="width"> px * <input type="number" name="height"> px
-            <button>設定</button>
         </div>
         <div class="specific">
             指定結果：
@@ -27,38 +26,32 @@
             <label><input type="radio" name="specific" value="name">依名稱</label>
             <select></select>
         </div>
-        <div class="dir">
-            旋轉方向：
-            <label><input type="radio" name="dir" value="right" checked>向右</label>
-            <label><input type="radio" name="dir" value="left">向左</label>
-        </div>
         <div class="cycles">轉動圈數：<input type="number"><button>設定</button></div>
-        <div class="duration">持續時間(秒)：<input type="number"><button>設定</button></div>
+        <div class="perRectTime">時間基數：<input type="number"><button>設定</button> * 取小數點2位，越小越快</div>
         <button class="spin">轉動</button>
     </div>
 
-    <script>
-        var script=document.createElement('script');
-        script.onload=function()
-        {
-            var stats=new Stats();
-            document.body.appendChild(stats.dom);
-            requestAnimationFrame(function loop(){stats.update();requestAnimationFrame(loop)});
-        };
-        script.src='//mrdoob.github.io/stats.js/build/stats.min.js';
-        document.head.appendChild(script);
-    </script>
-    
     <style>
-        *, html{
+        *,
+        html {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
-        #wheelRoulette{
+
+        #rectRoulette 
+        {
+            /* max-width: 800px;
+            height: 600px; */
+
             max-width: 1024px;
             height: 768px;
+
+            /* max-width: 1440px;
+            height: 900px; */
+
             margin: 0 auto;
-            background: #cfcfcf;
+            background: gray;
         }
 
         /* 控制面板 */
@@ -83,9 +76,6 @@
             top: 2px;
             margin: 0 3px 0 0;
         }
-        .resulution input[type=number]{
-            width: 50px;
-        }
         label{
             margin: 0 10px 0 0;
         }
@@ -100,5 +90,16 @@
         }
     </style>
 
+    <script>
+        var script = document.createElement('script');
+        script.onload = function () { 
+            var stats = new Stats(); 
+            document.body.appendChild(stats.dom);
+            requestAnimationFrame(function loop() { stats.update(); requestAnimationFrame(loop) }); 
+        }; 
+        script.src = '//mrdoob.github.io/stats.js/build/stats.min.js';
+        document.head.appendChild(script);
+    </script>
 </body>
+
 </html>
