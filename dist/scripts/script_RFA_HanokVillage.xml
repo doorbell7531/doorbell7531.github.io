@@ -1,0 +1,71 @@
+<!-- DAY2韓屋村、三清洞 -->
+<!-- ?type=RFA&script=HanokVillage -->
+<simulateChatScript>
+
+    <add charID="106" />
+
+    <talk charID="106">早上跟成員們在景福宮玩得還開心嗎?</talk>
+    <talk charID="106">早上是我個展的開幕儀式，很遺憾我沒有辦法到場。</talk>
+
+    <talk>雖然非常有趣，但很可惜你跟濟希都沒有到場呢…</talk>
+
+    <talk charID="106">我有看到早上的聊天室。</talk>
+    <talk charID="106">濟希能夠這樣堅守工作崗位，真是很了不起。</talk>
+
+    <talk>V不也是嗎?</talk>
+    <talk>早上的展覽開幕還順利嗎?</talk>
+
+    <talk charID="106">嗯</talk>
+    <talk charID="106">托你的福，一切都很順利。</talk>
+    <talk charID="106">我現在也有點空閒時間了。</talk>
+    <talk charID="106">MC接下來的行程是去韓屋村跟三清洞吧?</talk>
+    <talk charID="106">那我帶你四處逛逛，然後再一起喝杯咖啡如何?</talk>
+    <talk charID="106">#sticker1060;</talk>
+
+    <talk>如果你方便的話那當然最好啦!</talk>
+    <talk>那V你能先跟我說說韓屋村有什麼嗎?</talk>
+
+    <talk charID="106">韓屋村並不是一個單一景點，它是位於景福宮、昌德宮之間一整區的村落，因為首爾僅存的傳統韓屋大部分都在這邊，又位在清溪川及鐘路北邊，所以這裡叫做「北村韓屋村」。</talk>
+    <talk charID="106">我有很多攝影同好會來這邊拍攝「韓村八景」，我們待會也可以去看一下。</talk>
+    <talk charID="106">但是待會會有很多上坡路，如果累了記得跟我說，我會停下來等你的。</talk>
+    <talk charID="106">不要太逞強了。</talk>
+    <talk charID="106">#sticker1062;</talk>
+
+    <talk>上坡路啊…</talk>
+    <talk>聽起來腳很酸呢…</talk>
+    <talk>那三清洞呢?三清洞有什麼?</talk>
+
+    <talk charID="106">三清洞嗎?</talk>
+    <talk charID="106">我這次的展覽就辦在那裡。</talk>
+    <talk charID="106">三清洞這一帶有許多咖啡館和藝廊，街邊也有很多小店可以逛。</talk>
+    <talk charID="106">這附近有一間吉拿棒滿知名的。也許待會可以去看看?</talk>
+
+    <reply>
+        <option insert="option-1-a">吉拿棒聽起來就很好吃耶!</option>
+        <option insert="option-1-b">吉拿上的肉桂味我不太敢吃耶…</option>
+    </reply>
+
+    <talk charID="106">看看時間，MC妳也快到目的地了吧?</talk>
+    <talk charID="106">我會在韓屋村等妳的。</talk>
+    <talk charID="106">那我先出發囉。</talk>
+    <talk charID="106">非常期待見到妳。</talk>
+    <talk charID="106">#sticker1063;</talk>
+
+    <remove charID="106" />
+
+    <!-- insert -->
+    <insert id="option-1-a">
+        <talk charID="106">你喜歡真是太好了!</talk>
+        <talk charID="106">因為我其實不太知道要帶女孩子去什麼地方，還特地詢問了這次展覽的女同事!</talk>
+        <talk charID="106">#sticker1060;</talk>
+    </insert>
+
+    <insert id="option-1-b">
+        <talk charID="106">這樣啊…</talk>
+        <talk charID="106">是我想得不夠周到。</talk>
+        <talk charID="106">#sticker1061;</talk>
+        <talk charID="106">不然附近還有些不錯的咖啡廳，我們邊走邊看妳比較喜歡哪間吧。</talk>
+        <talk charID="106">我尊重妳的選擇。</talk>
+    </insert>
+
+</simulateChatScript>

@@ -1,0 +1,104 @@
+<!-- DAY3炸雞、弘大 -->
+<!-- ?type=RFA&script=friedChicken -->
+
+<simulateChatScript>
+
+    <add charID="101" />
+
+    <talk charID="101">MC!!我等了好多天!!!</talk>
+    <talk charID="101">終於輪到我了!!!!!</talk>
+    <talk charID="101">雖然可能沒辦法像主旻他們一樣帶妳去那麼好的地方，但是我今天可以陪妳一整天喔!</talk>
+    <talk charID="101">他們都說我準備跟妳一起去的地方很沒有誠意!</talk>
+    <talk charID="101">可是我就是想帶MC一起體驗我日常的生活啊…</talk>
+    <talk charID="101">#sticker1013;</talk>
+    
+    <reply>
+        <option insert="option-1-a">可是我難得來一次韓國，我覺得還是要去一些特別一點的行程耶!</option>
+        <option insert="option-1-b">我覺得體驗看看韓國的日常生活也很棒啊!</option>
+    </reply>
+
+    <talk>所以流星你決定帶我去哪裡呢?</talk>
+    <talk>都已經在路上了，應該可以不用再繼續保密了吧!</talk>
+
+    <talk charID="101">之前我在IG上其實有偷偷預告喔!</talk>
+    <talk charID="101">我要帶妳去我平常下課後就會去的炸雞店!</talk>
+    <talk charID="101">#sticker1011;</talk>
+    <talk charID="101">吃完午餐，我們再一起去逛街!</talk>
+    <talk charID="101">弘大附近有很多很好逛的地方喔!</talk>
+
+    <talk>流星你平常會去逛街嗎?</talk>
+
+    <talk charID="101">有時候社團的朋友一直邀我我才會去。</talk>
+    <talk charID="101">比起逛街，我更愛在家打LOLOL。</talk>
+    <talk charID="101">倒是常常下課跟LOLOL戰友一起去外帶炸雞回家，順便在路上討論LOLOL的陣容搭配。</talk>
+    <talk charID="101">所以我最熟的是附近的炸雞店XD</talk>
+    <talk charID="101">當然啦!如果MC能陪我一起逛街選件帥氣的衣服，一定很幸福!</talk>
+    <talk charID="101">不過這次還是讓我陪MC逛街吧，希望能買到妳喜歡的東西帶回去作紀念!</talk>
+    <talk charID="101">#sticker1018;</talk>
+
+    <talk>真的嗎?</talk>
+    <talk>跟我逛街可能沒辦法像打LOLOL那麼刺激有趣喔…</talk>
+
+    <talk charID="101">只要能跟MC在一起就好!真的!</talk>
+    <talk charID="101">本來想帶MC妳去坐摩天輪的，但是今天的時間不太夠呢…</talk>
+    <talk charID="101">下次再來韓國吧!</talk>
+    <talk charID="101">我們可以花一整天的時間在遊樂園!</talk>
+    <talk charID="101">我可以陪妳玩所有妳想玩的遊樂設施!</talk>
+
+    <reply>
+        <option insert="option-2-a">那我想玩雲霄飛車、海盜船、斷軌!<br/>我最喜歡刺激的遊樂設施了!</option>
+        <option insert="option-2-b">我不太敢玩太刺激的…<br />如果只能玩旋轉木馬或碰碰車那種你也願意陪我嗎?</option>
+    </reply>
+
+    <talk charID="101">那就約好囉!</talk>
+    <talk charID="101">下次妳來韓國，我們去遊樂園玩一整天~~</talk>
+    <talk charID="101">那我先去跟炸雞店訂位了!</talk>
+    <talk charID="101">待會見!</talk>
+
+    <remove charID="101" />
+
+    <!-- insert -->
+    <insert id="option-1-a">
+
+        <talk charID="101">果然主旻說的對…</talk>
+        <talk charID="101">不該帶MC來這種行程的</talk>
+        <talk charID="101">#sticker1015;</talk>
+        <talk charID="101">我還特地問了人要帶朋友去哪裡玩比較好….</talk>
+        <talk charID="101">果然不該相信他們的建議嗎?</talk>
+
+        <talk>那個…流星，你問的是哪裡認識的朋友啊?</talk>
+
+        <talk charID="101">就是之前有邀請我加入他們永遠單身團的團長啊~</talk>
+        <talk charID="101">雖然沒有加入他們，但上次派對後，我跟他成為了朋友呢!</talk>
+        <talk charID="101">#sticker1010;</talk>
+
+    </insert>
+
+    <insert id="option-1-b">
+
+        <talk charID="101">是嗎!!!</talk>
+        <talk charID="101">所以我沒有選錯行程!</talk>
+        <talk charID="101">MC妳喜歡真是太好了!!</talk>
+        <talk charID="101">#sticker1012;</talk>
+
+    </insert>
+
+    <insert id="option-2-a">
+
+        <talk charID="101">#sticker1017;</talk>
+        <talk charID="101">沒想到MC喜歡這麼刺激的遊樂設施!</talk>
+        <talk charID="101">為了證明我是個可以保護妳的男人，我會陪妳一起玩的!</talk>
+
+    </insert>
+
+    <insert id="option-2-b">
+
+        <talk charID="101">那當然囉，能和喜歡的人一起坐旋轉木馬，是我的憧憬呢……</talk>
+        <talk charID="101">沒、沒事，忘了我剛剛說的。</talk>
+        <talk charID="101">說到碰碰車我的技術是一流的喔!</talk>
+        <talk charID="101">沒問題的!妳想玩甚麼我都願意陪妳~</talk>
+        <talk charID="101">#sticker1011;</talk>
+
+    </insert>
+
+</simulateChatScript>

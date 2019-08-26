@@ -1,0 +1,136 @@
+<!-- day2飯店晚上 -->
+<!-- ?type=unknow&script=hotel -->
+
+<simulateChatScript>
+
+    <talk charID="999">#$_______</talk>
+    <talk charID="999">請使用者回答以下問題，以協助系統智慧資料庫蒐集更新。</talk>
+    <talk charID="999">遵照妳心中真實的聲音，妳的選擇會影響下次更新的內容。</talk>
+    <talk charID="999">請將每題的答案記錄下來，整理人員會另外向妳收取。</talk>
+    <talk charID="999">請問測試者是否已做好回答的準備。</talk>
+
+    <reply>
+        <option insert="option-1-a">是的，我已做好準備。</option>
+        <!-- <option insert="option-1-b">等等我拿個紙筆!!!!!</option> -->
+    </reply>
+
+    <talk charID="999">測試者面前有一片花園，裡面盛開了各式各樣的花。</talk>
+    <talk charID="999">現在請妳去摘下一朵，妳會選擇哪一朵花？</talk>
+
+    <reply>
+        <option insert="option-2-a">A.鈴蘭</option>
+        <option insert="option-2-b">B.銀蓮花</option>
+    </reply>
+
+    <talk charID="999">花中出現了人影，邀請妳去一個沒有煩惱的地方。</talk>
+    <talk charID="999">妳是否會跟著他去?</talk>
+
+    <reply>
+        <option insert="option-3-a">A.去</option>
+        <option insert="option-3-b">B.不去!我不相信有這種地方</option>
+    </reply>
+
+    <talk charID="999">在一陣刺眼的光芒過後，妳被帶到了一個從未去過的地方。</talk>
+    <talk charID="999">眼前一大片湖泊被陽光照射，反射出粼粼的光澤。</talk>
+    <talk charID="999">在妳眼前，妳看到的是甚麼樣的景象？</talk>
+
+    <reply>
+        <option insert="option-4-a">A.湖泊旁有片寬闊的草原。</option>
+        <option insert="option-4-b">B.湖泊旁有座靜謐的森林。</option>
+    </reply>
+
+    <talk charID="999">湖邊有著各式各樣的動物，妳最先看到的是?</talk>
+
+    <reply>
+        <option insert="option-5-a">A.樹上的貓頭鷹，大大的眼睛正看著闖進來的妳。</option>
+        <option insert="option-5-b">B.兔子在湖邊蹦跳，跳得離妳越來越近好像想靠近妳。</option>
+    </reply>
+
+    <talk charID="999">湖邊有一座木製的房子，妳走了進去。</talk>
+    <talk charID="999">妳看到的裝潢風格是怎麼樣的呢?</talk>
+
+    <reply>
+        <option insert="option-6-a">A.圓圓的木頭家具，是很溫馨的風格。</option>
+        <option insert="option-6-b">B.簡約的金屬家具，比較工業風的感覺。</option>
+    </reply>
+
+    <talk charID="999">妳在桌上看到了兩件非常漂亮的衣服，旁邊有著字條寫著:請選一件換上吧。</talk>
+
+    <reply>
+        <option insert="option-7-a">A.紫紅色的精緻洋裝。</option>
+        <option insert="option-7-b">B.黑色的修身洋裝。</option>
+    </reply>
+
+    <talk charID="999">搭配的配件也是很重要的。</talk>
+    <talk charID="999">請選擇妳想搭配的胸花上的主石。</talk>
+
+    <reply>
+        <option insert="option-8-a">A.紅瑪瑙</option>
+        <option insert="option-8-b">B.虎眼石</option>
+    </reply>
+
+    <talk charID="999">湖岸的對面有個永恆的樂園，那裡正在舉辦舞會。</talk>
+    <talk charID="999">裡面有數不盡的美食，還能帶給妳無窮盡的歡笑。那是個沒有煩惱、痛苦的地方，我鄭重的邀請妳當我的舞伴，妳願意跟我一起前往永恆的樂園嗎？</talk>
+
+    <reply>
+        <option insert="option-9-a">A.我願意。</option>
+        <option insert="option-9-b">B.我要回到現實世界!</option>
+    </reply>
+
+    <talk charID="999">#$_______</talk>
+    <talk charID="999">測試已經結束，請將記錄下的答案封存好，不要給第二個人看到。</talk>
+    <talk charID="999">我會讓信徒…工作人員去收取妳手上的答案。</talk>
+    <talk charID="999">感謝配合。</talk>
+
+    <!-- insert -->
+    <insert id="option-1-a">
+    </insert>
+    <!-- <insert id="option-1-b">
+        <talk charID="999">請問測試者是否已做好回答的準備。</talk>
+        <talk charID="999">អ្នកស្ថិតនៅក្នុងទីសាធារណៈបីតូច</talk>
+    </insert> -->
+
+    <insert id="option-2-a">
+    </insert>
+    <insert id="option-2-b">
+    </insert>
+
+    <insert id="option-3-a">
+    </insert>
+    <insert id="option-3-b">
+    </insert>
+
+    <insert id="option-4-a">
+    </insert>
+    <insert id="option-4-b">
+    </insert>
+
+    <insert id="option-5-a">
+    </insert>
+    <insert id="option-5-b">
+    </insert>
+
+    <insert id="option-6-a">
+    </insert>
+    <insert id="option-6-b">
+    </insert>
+
+    <insert id="option-7-a">
+    </insert>
+    <insert id="option-7-b">
+    </insert>
+
+    <insert id="option-8-a">
+    </insert>
+    <insert id="option-8-b">
+    </insert>
+
+    <insert id="option-9-a">
+    </insert>
+    <insert id="option-9-b">
+    </insert>
+
+
+
+</simulateChatScript>
+
